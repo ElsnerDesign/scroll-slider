@@ -1,0 +1,92 @@
+.hori-slider {
+    overflow: hidden;
+    padding: 0.875rem 0 4.8rem;
+}
+.hori-slider .a-mockup {
+    width: 94%;
+    height: auto;
+    display: inline-block;
+    margin: 2rem 1rem;
+    overflow: hidden;
+}
+.a-mockup img {
+    display: block;
+    width: 100%;
+}
+.mCustomScrollBox {
+    position: relative;
+    overflow: hidden;
+}
+.mCSB_scrollTools .mCSB_draggerContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: auto;
+}
+
+.o-horizontal-slider {
+    overflow: hidden;
+}
+.o-horizontal-slider .content {
+    white-space: nowrap;
+    display: inline-block;
+}
+.o-horizontal-slider .content .a-mockup {
+    max-width: 30VW;
+}
+@media (min-width: 1024px) {
+    .o-horizontal-slider .content .a-mockup {
+        max-width: 18vw;
+    }
+}
+
+.mCSB_scrollTools.mCSB_scrollTools_horizontal {
+    width: 75%;
+    height: 3rem;
+    margin: 0 auto;
+    position: relative;
+}
+.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_dragger {
+    width: 2rem !important;
+    height: 2rem;
+    top: 0.5rem;
+    z-index: 1;
+    background: transparent;
+    cursor: pointer;
+}
+.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_dragger:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -0.5rem;
+    left: -0.5rem;
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid #2f4c96;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_dragger:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #2f4c96 url(../img/horizontal-slider-arrows.png) no-repeat center center;
+    background-size: 20px 9px;
+}
+.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_draggerRail {
+    display: block;
+    height: 1px;
+    margin-top: 1.5rem;
+    background: #d8dce2;
+    position: relative;
+}
